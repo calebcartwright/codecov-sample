@@ -1,0 +1,5 @@
+{
+  "extends": "@swellaby/nyc-config/partial-coverage",
+  "include": "**/*.js",
+  "functions": 50
+}
