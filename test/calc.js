@@ -12,7 +12,7 @@ suite('calc Tests', () => {
         assert.deepEqual(3, calc.subtract(8, 5));
     });
 
-    // test('Should multiply correctly', () => {
-    //     assert.deepEqual(27, calc.multiply(3, 9));
-    // });
+    test('Should multiply correctly', () => {
+        assert.deepEqual(27, calc.multiply(3, 9));
+    });
 });
